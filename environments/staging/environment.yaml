@@ -41,7 +41,7 @@ app:
   # observability:
   #  cloudwatch:   
   #    arn: arn:aws:logs:region:account-id:destination:destination_name
-  #    logGroup: myLogGroup
+  #     logGroup: myLogGroup
   version: ""
 #  probes
 # dynamic scaling
