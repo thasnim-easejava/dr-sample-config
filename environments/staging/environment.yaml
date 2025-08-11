@@ -42,7 +42,12 @@ app:
   #  cloudwatch:   
   #    arn: arn:aws:logs:region:account-id:destination:destination_name
   #    logGroup: myLogGroup
-  version: ""
+  # version: ""
+  maven:
+    groupId: net.wasdev.wlp.sample
+    artifactId: ferret
+    version: "1.2"
+    type: war
 #  probes
 # dynamic scaling
 # scaling to 0
