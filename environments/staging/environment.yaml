@@ -4,6 +4,11 @@ app:
   #  build id to deploy
   #    version: 1.0-SNAPSHOT-20230716015630
   #  number of instances
+  maven:
+    groupId: net.wasdev.wlp.sample
+    artifactId: ferret
+    version: "1.2"
+    type: war
   endpoints: public
   instances:
     #q: consider availability zones? 
